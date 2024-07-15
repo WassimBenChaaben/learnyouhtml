@@ -1,4 +1,5 @@
 const fs = require('fs');
+const fs = require('fs');
 const HTMLParser = require('fast-html-parser');
 
 module.exports = filename => new Promise((resolve, reject) => {
